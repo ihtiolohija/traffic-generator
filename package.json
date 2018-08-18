@@ -1,0 +1,20 @@
+{
+  "name": "traffic-generator",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "async": "^2.6.1",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.9",
+    "express": "~4.16.0",
+    "http-errors": "~1.6.2",
+    "jade": "~1.11.0",
+    "loadtest": "^3.0.4",
+    "morgan": "~1.9.0",
+    "node-nmap": "^4.0.0",
+    "pm2": "^3.0.3"
+  }
+}
